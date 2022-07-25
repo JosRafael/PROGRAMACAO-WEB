@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scabable=0"/>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/feedback.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="assets/images/4store-logo.png" alt="Logo"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="about.html">sobre</a></li>
+                        <li class="active"><a href="feedback.html">feedback</a></li>
+                        <li><a href="contact.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id ="bannerwithout">
+            <form action="">
+                <fieldset class="grupo">
+                    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                    <div class="main-text">
+                        <h2><br>Sua opinião é o nosso combustivel!</h2>
+                        <h2>deixe a sua sugestão</h2>
+    
+                    </div>
+
+                    <div class="campo">
+                        <label for="nome"><strong><br><br><br> Nome</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+        
+                    <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                    <div class="campo">
+                        <label for="sobrenome"><strong><br><br><br>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset> 
+        
+                <!-- Campo de email com-->
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+        
+                <div class="campo">
+                    <br>
+                    <label for="feedback"><strong>Conte-nos sobre o seu feedback </strong></label>
+                    <textarea rows="6" style="width: 26em" id="feedback" name="feedback"></textarea>
+                </div>
+        
+                <!-- Botão para enviar o formulário -->
+                <button class="botao" type="submit" onsubmit="">Enviar</button>  
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container column">
+           <div class="footer-area">
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class = "widget-title-text"><a href="https://www.instagram.com/" target="_blank" style="color: white;">Instagram</a></div>
+                    <div class = "widget-title-bar"></div>
+                </div>
+            </div>
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class = "widget-title-text"> <a href="https://www.facebook.com/" target="_blank" style="color: white;">Facebook</a></div>
+                    <div class = "widget-title-bar"></div>
+                </div>
+            </div>
+            <div class="footer-area-item">
+                <div class="widget-title">
+                    <div class = "widget-title-text">Whatsapp</div>
+                    <div class = "widget-title-bar"></div>
+                </div>
+            </div>
+           </div>
+           <div class="footer-copie">
+                Todos os direitos reservados © 2021
+           </div>
+        </div>
+    </footer>
+
+</body>
+</html>
